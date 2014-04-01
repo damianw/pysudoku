@@ -15,8 +15,7 @@ The program is also capable of outputting a solved PDF, as long as the original 
 
 As a Library
 ------------
-`
->>> from solver import Sudoku
+`>>> from solver import Sudoku
 >>> p = """
         +-------+-------+-------+
         | . . . | . . 8 | . 5 4 |
@@ -45,8 +44,7 @@ As a Library
 | 6 5 7 | 3 2 4 | 8 9 1 |
 | 4 2 8 | 9 1 5 | 6 7 3 |
 | 1 3 9 | 8 6 7 | 5 4 2 |
-+-------+-------+-------+
-`
++-------+-------+-------+`
 
 The relevant DIMACS string can also be generated as follows:
 `>>> dimacs = s.get_dimacs()`
